@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "notif-debug-1",
+    "slug": "notif-debug-1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "notification": {
+      "icon": "assets/notification-icon-white-dev.png",
+      "color": "#ff0000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "package": "com.expo.notifdebug1",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
